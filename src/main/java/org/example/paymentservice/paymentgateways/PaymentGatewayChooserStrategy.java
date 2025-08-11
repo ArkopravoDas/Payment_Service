@@ -12,6 +12,6 @@ public class PaymentGatewayChooserStrategy {
     private StripePaymentGateway stripePaymentGateway;
 
     public IPaymentGateway getBestPaymentGateway() {
-        return razorpayPaymentGateway;
+        return stripePaymentGateway;
     }
 }
